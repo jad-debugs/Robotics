@@ -98,8 +98,8 @@ void opcontrol() {
 			liftRight.controllerSet(0.5);
 		}
 		else if (controller[okapi::ControllerDigital::R2].isPressed()) {
-			liftLeft.controllerSet(0.5);
-			liftRight.controllerSet(0.5);
+			liftLeft.controllerSet(-0.5);
+			liftRight.controllerSet(-0.5);
 		}
 		else {
 			liftLeft.controllerSet(0);
